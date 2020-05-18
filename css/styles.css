@@ -1,0 +1,156 @@
+body {
+    background-color: white;
+    color: #000;
+    font-family: arial, sans-serif;
+  }
+
+#nav_bar {
+  display: flex;
+  flex-direction: row;
+  font-size: small;
+  color: #000;
+  opacity: 0.75;
+  width: 100%;
+  height: 20px;
+  align-items: center;
+  top: 20px;
+  position: absolute;
+}
+
+.nav_text {
+  margin: 10px;
+}
+.left_side {
+  display: flex;
+  flex-direction: row;
+}
+
+.right_side {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  position: absolute;
+  right: 10px;
+  align-items: center;
+}
+.small_spacer {
+  width: 5px;
+}
+
+#large_spacer {
+  width: 70%;
+}
+
+.nav_link {
+  text-decoration: none;
+  color: #000;
+  opacity: 0.75;
+  margin: 5px 5px 5px 5px;
+}
+
+.nav_link:hover {
+  text-decoration: underline !important;
+}
+
+#waffle_icon {
+  height: 15px;
+  max-width: 15px;
+  margin: 10px;
+}
+
+#sign_in {
+  text-decoration: none;
+  background: -webkit-linear-gradient(top,#4387fd,#4683ea);
+  color: white;
+  font-weight: bold;
+  padding: 5px 10px 5px 10px;
+  margin: 10px;
+  border-radius: 3px;
+  right: 5px;
+}
+
+#logo_search {
+  margin: auto;
+  text-align: center;
+}
+
+#logo {
+  margin: auto;
+  width: 272px;
+  padding: 60px 0 5px 0;
+}
+
+#search {
+  margin: auto;
+  width: 500px;
+  height: 40px;
+  align-items: center;
+  padding-bottom: 20px;
+}
+
+#search_box{
+  padding-left: 40px;
+  padding-right: 50px;
+  padding-top: 5px;
+  height: 40px;
+  width: 400px;
+  border: .5px solid rgba(0,0,0,0.7);
+  border-radius: 24px;
+  margin: 10px;
+  font-size: medium;
+  outline: none;
+  background-image: url('search_bg.png');
+  background-repeat: no-repeat;
+  background-origin: initial;
+  background-position-y: center;
+}
+
+#search_box:hover {
+  box-shadow: 0px 0px 3px 3px darkgrey;
+}
+
+button {
+  margin-left: 5px;
+  margin-right: 5px;
+  font-size: 12px;
+  text-align: center;
+  border: none;
+  background-color: lightgrey;
+  height: 30px;
+  color: #000;
+  opacity: 0.75;
+  border-radius: 3px;
+}
+
+#bottom_bar {
+  position: absolute;
+  left: 0px;
+  bottom: 0px;
+  display: flex;
+  flex-direction: row;
+  font-size: small;
+  color: #000;
+  opacity: 0.75;
+  width: 100%;
+  background-color: lightgrey;
+  height: 40px;
+  align-items: center;
+}
+
+#large_bottom_spacer {
+  width: 60%;
+}
+
+.bottom_link {
+  display: flex;
+  text-decoration: none;
+  color: #000;
+  opacity: 0.75;
+  font-size: 15px;
+  width: auto;
+  margin: 10px;
+}
+
+.bottom_link:hover {
+  text-decoration: underline !important;
+}
